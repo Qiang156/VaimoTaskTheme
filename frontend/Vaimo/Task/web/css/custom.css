@@ -1,0 +1,92 @@
+.header.content {
+    display: flex;
+    max-width: none;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 3;
+    top: 0;
+    position: fixed;
+}
+
+.duration-300 {
+    transition-duration: .3s;
+}
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
+.w-full {
+    width:100%;
+}
+.shadow {
+    box-shadow: 0px 1px 5px gray;
+}
+.top-0 {
+    top: 0;
+}
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.p-6 {
+    padding: 1.5rem;
+}
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.bg-opacity-50 {
+    --tw-bg-opacity: 0.5;
+}
+.bg-black {
+    --tw-bg-opacity: 0.5;
+    background-color: rgba(0,0,0,var(--tw-bg-opacity));
+}
+.bg-white {
+    --tw-bg-opacity: 0.85;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+}
+
+.logo {
+    margin: 0;
+}
+.navigation {
+    margin-left:30px;
+    background: none;
+}
+
+.navigation a:hover {
+    color:#FFF;
+}
+
+
+.page-header .panel.wrapper {
+    background: none;
+    color: #575757;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.page-header .header.panel {
+    padding: 0;
+    margin: 0;
+}
+.panel.header .switcher {
+    margin-right: 2rem;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+}
+.page-header .panel.wrapper .switcher .label {
+    position: relative;
+}
