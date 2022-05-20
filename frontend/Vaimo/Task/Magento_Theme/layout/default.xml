@@ -15,7 +15,7 @@
 
         <referenceContainer name="header.container">
 
-<!--            <referenceContainer name="header.panel.wrapper" remove="true" />-->
+<!--        <referenceContainer name="header.panel.wrapper" remove="true" />-->
 
             <container name="header-wrapper" label="Page Header" as="header-wrapper" htmlTag="div" htmlClass="header content">
 

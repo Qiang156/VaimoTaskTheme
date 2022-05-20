@@ -1,3 +1,6 @@
+.page-header {
+    margin-top:80px;
+}
 .header.content {
     display: flex;
     max-width: none;
@@ -89,4 +92,8 @@
 }
 .page-header .panel.wrapper .switcher .label {
     position: relative;
+}
+
+.page-wrapper > .breadcrumbs {
+    padding-top:20px;
 }

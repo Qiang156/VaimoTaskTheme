@@ -1,0 +1,11 @@
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+    <!-- your theme's name -->
+    <title>Vaimo Maybelline</title>
+    <!-- the parent theme, in case your theme inherits from an existing theme -->
+    <parent>Magento/luma</parent>
+    <media>
+        <!-- the path to your theme's preview image -->
+        <preview_image>media/preview.jpg</preview_image>
+    </media>
+</theme>
